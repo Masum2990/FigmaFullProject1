@@ -1,0 +1,1104 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 1224px;
+  height: auto;
+  margin: auto;
+  background: #F2F9FF;
+}
+
+
+/*************** Header Section   ***********/
+
+
+.parent-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  padding: 0px;
+}
+
+.nav-list ul{
+  display: flex;
+  list-style: none;
+}
+.header-logo img{
+  width: 227.067px;
+  height: 40px;
+}
+.nav-list ul li a{
+  display: flex;
+  align-items: center;
+  color:  #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-decoration: none;
+  padding: 16px 40px;
+}
+.nav-list ul li .btn-one{
+  padding: 16px 24px;
+  border: none;
+  border-radius: 77px;
+  background: #5693BF;
+  color:  #FFF;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+/************** parent-One*********** */
+
+.parent-one{
+  display: flex;
+  padding-top: 72px;
+}
+.solve{
+  margin-left: 80px;
+}
+.solve h1{
+  color:  #224259;
+  font-family: Varent Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+  line-height: 90px;
+}
+.solve h1 svg{
+  width: 94px;
+  height: 48px;
+}
+.solve h1 span{
+  color: #F17999;
+  font-family: Varent Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  width: 300px;
+  height: 80px;
+  padding: 0px 20px;
+  border-radius: 40px;
+  border: 3px solid  #F17999;
+}
+.parentsoto-div{
+  display: flex;
+  margin-top: 60px;
+}
+.cercel{
+  width: 300px;
+}
+.five-m{
+  position: relative;
+  width: 136px;
+  height: 136px;
+  border-radius: 68px;
+  background: #FAC252;
+}
+.five-m div{
+  position: absolute;
+  color: #224259;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.20);
+  font-family: Varent Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.group p{
+  color:  #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; 
+}
+
+
+/************* Parent two*********** */
+
+.parent-two{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+}
+.second-work p{
+  color:  #224259;
+  font-family: SF UI Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.second-work button{
+  color: #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  border: none;
+  padding: 20px 32px;
+  border-radius: 12px;
+  border: 2px solid #224259;
+  background: #FFF;
+  box-shadow: 10px 10px black;
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+/* ********Parent-three****** */
+
+.parent-three{
+  display: flex;
+  justify-content: space-between;
+  width: 1224px;
+  height: 885px;
+  background: #5693BF;
+  margin-top: 150px;
+  border-radius: 48px;
+  position: relative;
+}
+.middle-content{
+  margin-top: 70px;
+}
+.middle-content h3{
+  color:  #FFF;
+  text-align: center;
+  font-family: SF UI Display;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; 
+ 
+}
+.middle-content img{
+  display: flex;
+  margin: auto;
+  width: 99px;
+  height: 5px;
+  stroke-width: 2px;
+  stroke: #FFF;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.middle-content h2{
+  color:  #FFF;
+  text-align: center;
+  font-family: Varent Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  margin-bottom: 30px;
+}
+.middle-content p{
+  color:  #FFF;
+  text-align: center;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.parent-buttom{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 200px;
+}
+.visual-design{
+  width: 355px;
+  height: 280px;
+  border: none;
+  position: relative;
+  border-radius: 24px;
+  background:  #FFF;
+  box-shadow: 15px 15px black;
+}
+.visual-design h4{
+  color:  #224259;
+  font-family: Varent Grotesk;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; 
+  margin-bottom: 20px;
+ 
+}
+.visual-design span{
+  color: #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+
+}
+.visual-design div{
+  margin: 10px 30px 0px 45px;
+}
+
+.btn-two button{
+  position: absolute;
+  bottom: 0;
+  left: 490px;
+  margin: auto;
+  border: none;
+  color: var(--Dark, #224259);
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  padding: 20px 32px;
+  border-radius: 12px;
+  border: 2px solid  #224259;
+  background:  #FFF;
+  margin-bottom: 55px;
+  box-shadow: 10px 10px black;
+  cursor: pointer;
+}
+
+
+.btn-two svg{
+  position: absolute;
+  bottom: 0;
+  left: 1080px;
+  margin-bottom:25px; 
+
+}
+.parent-icon{
+  position: relative;
+  width: 72px;
+  height: 72px;
+  transform: translateY(-50px);
+}
+.parent-icon div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 32px;
+  height: 32px;
+
+}
+
+
+/********** parent-four******* */
+
+
+.parent-four{
+  margin-top: 150px;
+}
+.case-study h3{
+  color:  #F17999;
+  font-family: SF UI Display;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  text-align: center;
+}
+.case-study svg{
+  display: flex;
+  margin: auto;
+  stroke-width: 2px;
+  stroke:#F17999;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 134px
+}
+.latest-project h2{
+  color:  #224259;
+  text-align: center;
+  font-family: Varent Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+.latest-project p{
+  color:  #224259;
+  text-align: center;
+  width: 808px;
+  margin: auto;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.makeyourbrand{
+  display: flex;
+  margin: 50px 0px;
+  position: relative;
+}
+.image-div{
+  position: absolute;
+  top: -120px;
+  right: 5px;
+  width: 552px;
+  height: 367px;
+}
+.make{
+  width: 520px;
+}
+.dobol-one{
+  color:  #224259;
+  font-family: Varent Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+.make h3{
+  color:  #224259;
+  font-family: Varent Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+.we-are{
+  width: 392px;
+}
+.we-are p{
+  color:  #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.dobol-two{
+  color: #5693BF;
+  font-family: Varent Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; 
+}
+.advertising{
+  width: 520px;
+}
+.advertising h3{
+  color:  #5693BF;
+  font-family: Varent Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; 
+  text-decoration-line: underline;
+}
+.our-job{
+  width: 392px;
+}
+.our-job p{
+  color:  #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; 
+}
+.one-two-three{
+  margin-left: 150px;
+}
+.we-our{
+  margin-left: 150px;
+}
+.btn-three{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.btn-three button{
+  border: none;
+  color:  #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; 
+  padding: 20px 32px;
+  border-radius: 12px;
+  border: 2px solid  #224259;
+  background: #FFF;
+  box-shadow: 10px 10px black;
+  cursor: pointer;
+}
+
+/************ Parent-Five*********** */
+
+
+.get-start-now{
+  width: 1224px;
+  height: 471px;
+  border-radius: 48px;
+  background:  #F17999;
+  margin-top: 150px;
+  position: relative;
+}
+.logo-one img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0px 48px 48px 0px;
+}
+.Started{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 599px;
+  margin: 80px 0px 0px 80px;
+}
+.Started h2{
+  color: #FFF;
+  font-family: Varent Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; 
+}
+.Started .form-one{
+  width: 620px;
+  height: 72px;
+  border-radius: 12px;
+  border: 1px solid var(--White, #FFF);
+  opacity: 0.5;
+  margin-top: 80px;
+}
+.Started .fo-rm{
+  background: #F17999;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  border: none;
+  margin: 20px 30px;
+}
+::placeholder{
+  color: white;
+}
+.Started svg{
+  margin-left: 30px;
+} 
+.form-two{
+  color:  #FFF;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 40px;
+}
+.divunder-div{
+  display: flex;
+}
+.btn-four button{
+  color:  #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  padding: 20px 32px;
+  border-radius: 12px;
+  border: 2px solid  #224259;
+  background:  #FFF;
+  box-shadow: 10px 10px black;
+  margin: 20px 0px 0px 100px;
+  cursor: pointer;
+}
+
+/* ***********Parent-six************ */
+
+
+.parent-six{
+  display: flex;
+  margin-top: 150px;
+}
+.logo-two{
+  position: relative;
+}
+.logo-three{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.fun-fact{
+  margin-left: 180px;
+}
+.fun-fact h5{
+  color:  #F17999;
+  font-family: SF UI Display;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+.fun-fact h2{
+  color: #224259;
+  font-family: Varent Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; 
+  margin-top: 30px;
+}
+.fun-fact p{
+  color: #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; 
+  margin-top: 60px;
+}
+.posisk{
+  display: flex;
+  margin-left: 180px;
+  margin-top: 30px;
+}
+
+.fivek h2{
+  color:  #5693BF;
+  font-family: Varent Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  margin-right: 200px;
+}
+.fivek p{
+  color:  #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.aksotrishk{
+  display: flex;
+  margin-left: 180px;
+  margin-top: 40px;
+}
+.duisok h2{
+  color: #5693BF;
+  font-family: Varent Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  margin-right: 200px;
+}
+hr{
+  width: 600px;
+  height: 1px;
+  opacity: 0.1;
+  background: #224259;
+  margin-left: 180px;
+  margin-top: 20px;
+}
+
+
+/* *************Parent-seven********** */
+
+
+.parent-star{
+  display: flex;
+  margin-top: 150px;
+  justify-content: space-between;
+  position: relative;
+}
+.width-hight{
+  width: 278px;
+  background:#FFFFFF ;
+  height: 288px;
+  fill:  #FFF;
+  stroke-width: 3px;
+  stroke: #224259;
+  border: 3px solid black;
+  box-shadow: 15px 15px black;
+  border-radius: 20px;
+}
+.width-hight p{
+  color:  #224259;
+  font-family: Varent Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; 
+  text-align: center;
+  margin-top: 40px;
+}
+.width-hight img{
+  width: 168px;
+  height: 32px;
+  margin-left: 65px;
+}
+.width-hight svg{
+  margin: 30px 60px;
+}
+.top-bottom{
+  margin-top: 50px;
+}
+
+/* *************Parent-Eight********** */
+
+
+.parent-customers{
+  display: flex;
+  margin-top: 150px;
+}
+.testimonial h5{
+  color:  #F17999;
+  font-family: SF UI Display;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; 
+  }
+.testimonial h2{
+  color: #224259;
+  font-family: Varent Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  margin: 30px 0;
+}
+.paragraph-one{
+  width: 704px;
+}
+.paragraph-one p{
+  color: #224259;
+  font-family: SF UI Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; 
+}
+.peter{
+  display: flex;
+  margin-top: 40px;
+}
+.peter h4{
+  color:  #224259;
+  font-family: Varent Grotesk;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+
+}
+.peter h3{
+  color:#224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.tir{
+  display: flex;
+  margin-left: 300px;
+}
+.tir-right{
+  width: 72px;
+  height: 72px;
+  border-radius: 12px;
+  border: 2px solid  #224259;
+  background: #FFF;
+  position: relative;
+  cursor: pointer;
+  margin-right: 30px;
+  box-shadow: -10px 10px black;
+}
+.logo-tir{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 24px;
+  height: 20px;
+}
+.tir-left{
+  width: 72px;
+  height: 72px;
+  border-radius: 12px;
+  border: 2px solid var(--Dark, #224259);
+  background: var(--White, #FFF);
+  position: relative;
+  cursor: pointer;
+  box-shadow: 10px 10px black;
+}
+.logo-four img{
+  margin-left: 100px;
+}
+
+/************* Parent-Nine************ */
+
+.whychoose-us{
+  display: flex;
+  width: 1344px;
+  height: 788px;
+  border-radius: 48px 0px 0px 48px;
+  margin-top: 150px;
+  background:  #E5EEF5;
+  position: relative;
+}
+.expart-one{
+  width: 230px;
+  height: 222px;
+  position: absolute;
+  top: 300px;
+  left: 80px;
+}
+.find-one{
+  width: 230px;
+  height: 222px;
+  position: absolute;
+  top: 180px;
+  left: 330px;
+}
+.support-one{
+  width: 230px;
+  height: 222px;
+  position: absolute;
+  top: 420px;
+  left: 330px;
+}
+.tindag{
+  width: 62px;
+  height: 66px;
+  position: absolute;
+  top: 120px;
+  left: 300px;
+}
+.star-moto{
+  width: 41px;
+  height: 44px;
+  position: absolute;
+  top: 580px;
+  left: 200px;
+}
+.expart{
+  position: relative;
+}
+.e-x{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.e-x h2{
+  color: #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 160%; 
+  margin-top: 20px;
+}
+.e-x p{
+  color: #224259;
+  font-family: SF UI Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; 
+  margin: 5px 10px 0 0;
+}
+.find-solution{
+  width: 230px;
+  height: 222px;
+  position: absolute;
+  top: 300px;
+  left: 80px;
+}
+.find{
+  position: relative;
+}
+.e-x{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.reach-out{
+  margin: 180px 100px 0 620px;
+}
+.reach-out h4{
+  color: #F17999;
+  font-family: SF UI Display;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; 
+}
+.reach-out h3{
+  color: #224259;
+  font-family: Varent Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  margin-top: 25px;
+}
+.reach-out p{
+  color:  #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; 
+  margin-top: 25px;
+}
+.reach-out button{
+  color:  #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  padding: 20px 32px;
+  border-radius: 12px;
+  border: 2px solid #224259;
+  background:  #FFF;
+  box-shadow: 10px 10px black;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+/************* parent-ten *********/
+
+
+.parent-blog{
+  display: flex;
+  margin-top: 150px;
+  justify-content: space-between;
+}
+.latest-form h4{
+  color:  #F17999;
+  font-family: SF UI Display;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+.latest-form h3{
+  color:  #224259;
+  font-family: Varent Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  margin-top: 50px;
+}
+.latest-form p{
+  color:  #224259;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 40px;
+}
+.read-our button{
+  color:  #224259;
+  padding: 20px 32px;
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  border-radius: 12px;
+  border: 2px solid  #224259;
+  background:  #FFF;
+  box-shadow: 10px 10px black;
+  margin-top: 200px;
+  cursor: pointer;
+}
+.parent-img{
+  display: flex;
+  width: 1400px;
+  margin-top: 80px;
+  overflow: hidden;
+  position: relative;
+}
+.svg-one{
+  position: absolute;
+  top: 140px;
+  left: 175px;
+}
+
+.img-one h4{
+  color:  #224259;
+  font-family: SF UI Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; 
+  margin-top: 20px;
+}
+.img-one h4 span{
+  color:  #224259;
+  text-align: center;
+  padding: 3px 12px;
+  font-family: SF UI Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  border-radius: 16px;
+  background: #E5EEF5;
+  margin-right: 50px;
+}
+.creating-one{
+  width: 496px;
+  margin-top: 20px;
+  overflow: hidden;
+  
+}
+.creating-one p{
+  color:  #224259;
+  font-family: Varent Grotesk;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; 
+}
+.width-one{
+  margin-right: 20px;
+}
+.width-two{
+  margin-right: 20px;
+}
+
+/************* Footer section********** */
+
+
+.parent-footer{
+  display: flex;
+  width: 1400px;
+  height: 630px;
+  margin-top: 150px;
+  position: relative;
+  border-radius: 48px 0px 0px 0px;
+  background:  #5693BF;
+}
+ .form-four{
+  width: 400px;
+  height: 72px;
+  position: relative;
+  border-radius: 12px;
+  border: 1px solid  #fff;
+  margin-top: 80px;
+}
+.logo-five{
+  margin-top: 80px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.form-three{
+  position: absolute;
+  top: 25px;
+  left: 20px;
+}
+.ageland-img{
+  margin-top: 70px;
+}
+.form-three input{
+  background: #5693BF;
+  border: none;
+  margin-left: 15px;
+}
+.footer-email{
+  display: flex;
+}
+.footer-right{
+  padding: 120px;
+}
+.footer-right h2{
+  color:  #FFF;
+  font-family: Varent Grotesk;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; 
+}
+.footer-left{
+  padding: 120px;
+}
+.contact-page{
+  display: flex;
+}
+.same-one h2{
+  color:  #FFF;
+  font-family: SF UI Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+.same-one p{
+  color: #FFF;
+  font-family: SF UI Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; 
+}
+.contact-one {
+  padding-right: 80px;
+}
+.parent-facebook{
+  display: flex;
+  margin-top: 150px;
+}
+.four-icon{
+  margin-right: 30px;
+}
+.copy{
+  margin-top: 100px;
+}
+.copy p{
+  color:  #FFF;
+  font-family: SF UI Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; 
+}
